@@ -142,20 +142,27 @@ PRODUCT_PACKAGES += \
     libemoji \
     Terminal
 
+# Omni Apps
+PRODUCT_PACKAGES += \
+    OmniSwitch
+
 # Custom CM packages
 PRODUCT_PACKAGES += \
-    Launcher3 \
-    Trebuchet \
+    SlimLauncher \
     AudioFX \
     CMWallpapers \
     CMFileManager \
     Eleven \
     LockClock \
-    CMUpdater \
     CMAccount \
     CMHome \
     CyanogenSetupWizard \
     CMSettingsProvider
+
+# Extra Optional packages
+PRODUCT_PACKAGES += \
+    SlimOTA \
+    KernelAdiutor
 
 # CM Platform Library
 PRODUCT_PACKAGES += \
