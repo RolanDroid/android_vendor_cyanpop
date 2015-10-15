@@ -143,12 +143,10 @@ PRODUCT_PACKAGES += \
     Terminal
 
 # Omni Apps
-PRODUCT_PACKAGES += \
-    OmniSwitch
+PRODUCT_PACKAGES += OmniSwitch
 
-# Custom Apps
-PRODUCT_PACKAGES += \
-    KernelAdiutor 
+# Kernel Adiutor
+PRODUCT_COPY_FILES += vendor/cm/prebuilt/common/app/KernelAdiutor/KernelAdiutor.apk:system/app/KernelAdiutor/KernelAdiutor.apk
 
 # Custom CM packages
 PRODUCT_PACKAGES += \
