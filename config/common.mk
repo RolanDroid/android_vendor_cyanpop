@@ -150,7 +150,7 @@ PRODUCT_COPY_FILES += vendor/cm/prebuilt/common/app/KernelAdiutor/KernelAdiutor.
 
 # Custom CM packages
 PRODUCT_PACKAGES += \
-    Trebuchet \
+    SlimLauncher \
     AudioFX \
     CMWallpapers \
     CMFileManager \
