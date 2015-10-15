@@ -146,6 +146,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     OmniSwitch
 
+# Custom Apps
+PRODUCT_PACKAGES += \
+    KernelAdiutor 
+
 # Custom CM packages
 PRODUCT_PACKAGES += \
     Trebuchet \
@@ -158,11 +162,6 @@ PRODUCT_PACKAGES += \
     CMHome \
     CyanogenSetupWizard \
     CMSettingsProvider
-
-# Extra Optional packages
-PRODUCT_PACKAGES += \
-    SlimOTA \
-    KernelAdiutor
 
 # CM Platform Library
 PRODUCT_PACKAGES += \
