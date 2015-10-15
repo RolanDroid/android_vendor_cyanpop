@@ -148,7 +148,7 @@ PRODUCT_PACKAGES += \
 
 # Custom CM packages
 PRODUCT_PACKAGES += \
-    SlimLauncher \
+    Trebuchet \
     AudioFX \
     CMWallpapers \
     CMFileManager \
