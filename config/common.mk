@@ -146,7 +146,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += OmniSwitch
 
 # Kernel Adiutor
-PRODUCT_COPY_FILES += vendor/cm/prebuilt/common/app/KernelAdiutor/KernelAdiutor.apk:system/app/KernelAdiutor/KernelAdiutor.apk
+PRODUCT_COPY_FILES += vendor/cm/prebuilt/common/app/KernelAdiutor/KernelAdiutor.apk:system/priv-app/KernelAdiutor/KernelAdiutor.apk
 
 # Custom CM packages
 PRODUCT_PACKAGES += \
