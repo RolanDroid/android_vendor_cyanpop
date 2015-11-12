@@ -131,6 +131,7 @@ PRODUCT_PACKAGES += \
     CMWallpapers \
     CMFileManager \
     Eleven \
+    OTACenter \
     LockClock \
     CMUpdater \
     CMAccount \
@@ -256,6 +257,7 @@ endif
 
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.modversion=$(CYANPOP_VERSION) \
+    cyanpop.ota.version= $(shell date -u +%Y%m%d) \
     ro.cyanpop.version=$(VERSION)-$(CYANPOP_BUILDTYPE)
 
 -include vendor/cm-priv/keys/keys.mk
