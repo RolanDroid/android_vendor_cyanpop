@@ -124,8 +124,10 @@ PRODUCT_PACKAGES += \
     Terminal
 
 # Omni Apps
-PRODUCT_PACKAGES += \
-    OmniSwitch
+PRODUCT_PACKAGES += OmniSwitch
+
+# Kernel Adiutor
+PRODUCT_COPY_FILES += vendor/cm/prebuilt/common/app/KernelAdiutor.apk:system/priv-app/KernelAdiutor/KernelAdiutor.apk
 
 # Custom CyanPop packages
 PRODUCT_PACKAGES += \
