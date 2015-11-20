@@ -137,7 +137,7 @@ PRODUCT_PACKAGES += \
     CMWallpapers \
     CMFileManager \
     Eleven \
-    CyanPopOTA \
+    SlimOTA \
     LockClock \
     CMUpdater \
     CMAccount \
