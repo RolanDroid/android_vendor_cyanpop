@@ -129,7 +129,6 @@ PRODUCT_COPY_FILES += vendor/cm/prebuilt/common/app/KernelAdiutor.apk:system/pri
 # Custom CyanPop packages
 PRODUCT_PACKAGES += \
     Launcher3 \
-    Trebuchet \
     AudioFX \
     CMWallpapers \
     CMFileManager \
