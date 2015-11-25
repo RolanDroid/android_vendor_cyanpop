@@ -130,7 +130,7 @@ PRODUCT_COPY_FILES += vendor/cm/prebuilt/common/app/KernelAdiutor.apk:system/pri
 PRODUCT_PACKAGES += \
     Launcher3 \
     AudioFX \
-    CMWallpapers \
+    CyanPopWallpapers \
     CMFileManager \
     Eleven \
     SlimOTA \
