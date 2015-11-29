@@ -130,6 +130,10 @@ PRODUCT_COPY_FILES += vendor/cm/prebuilt/common/app/KernelAdiutor.apk:system/pri
 PRODUCT_COPY_FILES += \
 vendor/cm/prebuilt/common/app/layersmanager.apk:system/app/layersmanager.apk
 
+# Adaway
+PRODUCT_COPY_FILES += \
+vendor/cm/prebuilt/common/app/adaway.apk:system/app/adaway.apk
+
 # Custom CyanPop packages
 PRODUCT_PACKAGES += \
     Launcher3 \
