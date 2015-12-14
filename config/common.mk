@@ -123,6 +123,9 @@ PRODUCT_PACKAGES += \
     libemoji \
     Terminal
 
+# Omni Apps
+PRODUCT_PACKAGES += OmniSwitch
+
 # Kernel Adiutor
 PRODUCT_COPY_FILES += vendor/cm/prebuilt/common/app/KernelAdiutor.apk:system/priv-app/KernelAdiutor/KernelAdiutor.apk
 
