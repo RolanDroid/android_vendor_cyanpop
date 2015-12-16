@@ -142,8 +142,6 @@ PRODUCT_PACKAGES += \
     Eleven \
     SlimOTA \
     LockClock \
-    CMUpdater \
-    CMAccount \
     CyanogenSetupWizard \
     CMSettingsProvider \
     ExactCalculator
