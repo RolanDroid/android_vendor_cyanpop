@@ -131,7 +131,7 @@ PRODUCT_COPY_FILES += vendor/cm/prebuilt/common/app/KernelAdiutor.apk:system/pri
 
 # Adaway
 PRODUCT_COPY_FILES += \
-vendor/cm/prebuilt/common/app/adaway.apk:system/app/adaway.apk
+vendor/cm/prebuilt/common/app/adaway.apk:system/app/adaway/adaway.apk
 
 # Custom CyanPop packages
 PRODUCT_PACKAGES += \
