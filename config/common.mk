@@ -135,7 +135,7 @@ vendor/cm/prebuilt/common/app/adaway.apk:system/app/adaway/adaway.apk
 
 # Custom CyanPop packages
 PRODUCT_PACKAGES += \
-    Launcher3 \
+    Trebuchet \
     AudioFX \
     CyanPopWallpapers \
     CMFileManager \
