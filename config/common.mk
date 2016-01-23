@@ -137,7 +137,7 @@ vendor/cm/prebuilt/common/app/adaway.apk:system/app/adaway/adaway.apk
 PRODUCT_PACKAGES += \
     Trebuchet \
     AudioFX \
-    CyanPopWallpapers \
+    CMWallpapers \
     CMFileManager \
     Eleven \
     SlimOTA \
