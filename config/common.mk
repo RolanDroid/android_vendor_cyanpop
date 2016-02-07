@@ -144,7 +144,7 @@ PRODUCT_PACKAGES += \
     CMWallpapers \
     CMFileManager \
     Eleven \
-    SlimOTA \
+    CyanpopOTA \
     LockClock \
     CyanogenSetupWizard \
     CMSettingsProvider \
