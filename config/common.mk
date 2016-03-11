@@ -222,7 +222,7 @@ endif
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.sys.root_access=0
 
-PRODUCT_PACKAGE_OVERLAYS += vendor/cm/overlay/common
+DEVICE_PACKAGE_OVERLAYS += vendor/cm/overlay/common
 
 CYANPOP_BRANCH=mm_6.0.1
 
