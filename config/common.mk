@@ -236,19 +236,19 @@ endif
 
 ifdef CYANPOP_BUILDTYPE
     ifeq ($(CYANPOP_BUILDTYPE), RELEASE)
-       CYANPOP_VERSION := $(TARGET_PRODUCT)-$(CYANPOP_BRANCH)-$(VERSION)-RELEASE-$(shell date -u +%Y%m%d)
+       CYANPOP_VERSION := $(TARGET_PRODUCT)-$(CYANPOP_BRANCH)-v$(VERSION)-RELEASE-$(shell date -u +%Y%m%d)
     endif
     ifeq ($(CYANPOP_BUILDTYPE), NIGHTLY)
-        CYANPOP_VERSION := $(TARGET_PRODUCT)-$(CYANPOP_BRANCH)-$(VERSION)-NIGHTLY-$(shell date -u +%Y%m%d)
+        CYANPOP_VERSION := $(TARGET_PRODUCT)-$(CYANPOP_BRANCH)-v$(VERSION)-NIGHTLY-$(shell date -u +%Y%m%d)
     endif
     ifeq ($(CYANPOP_BUILDTYPE), EXPERIMENTAL)
-        CYANPOP_VERSION := $(TARGET_PRODUCT)-$(CYANPOP_BRANCH)-$(VERSION)-EXPERIMENTAL-$(shell date -u +%Y%m%d)
+        CYANPOP_VERSION := $(TARGET_PRODUCT)-$(CYANPOP_BRANCH)-v$(VERSION)-EXPERIMENTAL-$(shell date -u +%Y%m%d)
     endif
     ifeq ($(CYANPOP_BUILDTYPE), UNOFFICIAL)
-        CYANPOP_VERSION := $(TARGET_PRODUCT)-$(CYANPOP_BRANCH)-$(VERSION)-UNOFFICIAL-$(shell date -u +%Y%m%d)
+        CYANPOP_VERSION := $(TARGET_PRODUCT)-$(CYANPOP_BRANCH)-v$(VERSION)-UNOFFICIAL-$(shell date -u +%Y%m%d)
     endif
 else
-        CYANPOP_VERSION := $(TARGET_PRODUCT)_$(CYANPOP_BRANCH)-$(VERSION)-UNOFFICIAL-$(shell date -u +%Y%m%d)
+        CYANPOP_VERSION := $(TARGET_PRODUCT)_$(CYANPOP_BRANCH)-v$(VERSION)-UNOFFICIAL-$(shell date -u +%Y%m%d)
 endif
 
 
