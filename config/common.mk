@@ -132,10 +132,6 @@ PRODUCT_PACKAGES += OmniSwitch
 # Kernel Adiutor
 PRODUCT_COPY_FILES += vendor/cm/prebuilt/common/app/KernelAdiutor.apk:system/priv-app/KernelAdiutor/KernelAdiutor.apk
 
-# Adaway
-PRODUCT_COPY_FILES += \
-vendor/cm/prebuilt/common/app/adaway.apk:system/app/adaway/adaway.apk
-
 # Custom CyanPop packages
 PRODUCT_PACKAGES += \
     Trebuchet \
